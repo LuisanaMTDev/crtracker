@@ -1,0 +1,40 @@
+article {
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  border-radius: 5px;
+  background-color: var(--gray);
+  margin-bottom: 0.2em;
+  padding: 0.1em;
+}
+
+svg {
+  height: 1.5em;
+  width: 1.5em;
+}
+
+strong {
+  font-size: 0.7em;
+}
+
+select {
+  font-family: monospace;
+  margin-inline: 1em;
+  /*border: solid white 1px;*/
+  background-color: whitesmoke;
+  border-radius: 5px;
+  color: black;
+  text-align: center;
+}
+
+.state0 {
+  fill: brown;  
+}
+
+.state1 {
+  fill: orange;
+}
+
+.state2 {
+  fill: green;
+}
